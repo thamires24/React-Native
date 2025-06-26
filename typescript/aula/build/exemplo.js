@@ -1,0 +1,24 @@
+"use strict";
+const texto = "Aula de React Native";
+console.log(texto);
+let nome = "Thamires";
+let idade = 33;
+console.log(idade);
+//permite usar dois tipos difierentes de variaveis no mesmo vetor
+let linguagens = ["Java", "React", 1000];
+linguagens.push("PHP");
+console.log(linguagens);
+let matricula;
+matricula = "123";
+console.log(typeof matricula);
+matricula = 345;
+console.log(typeof matricula);
+let preco;
+preco = 200;
+preco = "200";
+preco = undefined;
+console.log(preco);
+let logado = true;
+let situacao = 'wer';
+logado = Boolean(situacao);
+console.log(logado);
